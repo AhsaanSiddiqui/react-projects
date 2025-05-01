@@ -10,6 +10,9 @@ function App() {
     // counter = counter + 1
     if(counter < 20) {
       setCounter(counter + 1)
+      // is code me add value + 2 add hogi. React me jitne bhi state hoti hai in sb me callback function accept krta hai.
+      // setCounter((prev) => prev + 1) // setCounter((prev) => prev + 1) existing state declared
+      // setCounter((prev) => prev + 1)
     }
     console.log(counter)
   }
